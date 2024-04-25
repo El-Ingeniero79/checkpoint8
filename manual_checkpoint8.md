@@ -1,4 +1,5 @@
-# Manual JavaScript conceptos avanzados equipo Dev-Pro
+<a name="top"></a>
+# MANUAL JAVASCRIPT_CONCEPTOS AVANZADOS_ EQUIPO DEV-PRO
 
 ## Introducción
 Antes de nada enhorabuena  por haber llegado hasta aqui, veo que has ido avanzando rapidamente y consolidandote en el equipo **Dev-Pro**.
@@ -7,23 +8,24 @@ En este manual te dare a conocer herramientas y conocimientos que haran que tu t
 
 ## Indice de contenidos
 
-¿Qué tipo de bucles hay en JS?
+[¿Qué tipo de bucles hay en JS?](#item1)
 
-¿Cuáles son las diferencias entre const, let y var?
+[¿Cuáles son las diferencias entre const, let y var?](#item2)
 
-¿Qué es una función de flecha?
+[¿Qué es una función de flecha?](#item3)
 
-¿Qué es la deconstrucción de variables?
+[¿Qué es la deconstrucción de variables?](#item4)
 
-¿Qué hace el operador de extensión en JS?
+[¿Qué hace el operador de extensión en JS?](#item5)
 
-¿Qué es la programación orientada a objetos?
+[¿Qué es la programación orientada a objetos?](#item6)
 
-¿Qué es una promesa en JS?
+[¿Qué es una promesa en JS?](#item7)
 
-¿Qué hacen async y await por nosotros?
+[¿Qué hacen async y await por nosotros?](#item8)
 
 ---
+<a name="item1"></a>
 ### ¿Qué tipo de bucles hay en JS?
 
 Una de las principales ventajas de la programación es la posibilidad de crear **bucles y repeticiones** para tareas específicas, y que no tengamos que realizar el mismo código varias veces de forma manual.
@@ -161,7 +163,9 @@ for (let currentLanguage of languageArr) {
   console.log ('Language is     ${currentLanguage} ')
 }
 ```
+["Subir"](#top)
 ---
+<a name="item2"></a>
 ### ¿Cuáles son las diferencias entre const, let y var?
 
 Aunque  _const_,  _let_  y  _var_  se utilizan para declarar variables en JavaScript, cada una tiene sus propias características y particularidades, que es importante entender al aprender sobre «**let en java**» y «**var javascript**«.
@@ -195,7 +199,11 @@ b = 5; // No se permite la reasignación fuera de su bloque, ilustrando "let vs"
 
 c = 6; // Se permite la reasignación, mostrando "var y" su flexibilidad`
 ```
+
+["Subir"](#top)
 ---
+
+<a name="item3"></a>
 ### ¿Qué es una función de flecha?
 
 Es una forma moderna y corta de definir una función, es muy parecida a una expresión de función.
@@ -281,7 +289,9 @@ let sum = (a, b) => { // la llave abre una función multilínea
   alert(sum(1, 2));// 3 
   ```
 
+["Subir"](#top)
 ---
+<a name="item4"></a>
 ### ¿Qué es la deconstrucción de variables?
 
 Los objetos y arreglos en JavaScript nos permiten **agrupar variables y valores en un solo lugar.** Aunque esto es muy útil, hay momentos en los que queremos desempacar o deconstruir esta agrupación para acceder a una sola variable o a un solo valor. Esto te sera de mucha utilidad y por ello te incluyo este apartado en el manual
@@ -353,7 +363,9 @@ El resultado de estas líneas de código sería el siguiente (el primer numero e
 
 La deconstrucción en JavaScript puede encontrarse mucho más en relación a los objetos. Esto sucede porque este lenguaje de programación es muy rico en las posibilidades que nos da para nombrar propiedades y valores en un objeto. De manera general, **cuando tenemos que estructurar datos, utilizamos los objetos.**  Por ello, serán los elementos que más se beneficien de la actividad de deconstruir. Por su parte, un  _array_ funciona más para acumular elementos.
 
+["Subir"](#top)
 ---
+<a name="item5"></a>
 ### ¿Qué hace el operador de extensión en JS?
 
 El operador spread en JavaScript es una sintaxis introducida en ECMAScript 6 (ES6) que te permite propagar los elementos de un iterable (como arrays, cadenas u objetos), en otro iterable o llamada a función.
@@ -482,8 +494,9 @@ El operador spread (…) permite concatenar arrays de forma concisa y limpia, cl
 
 Debido a su flexibilidad, el operador spread desempeña un papel importante en el futuro del desarrollo de JavaScript, ya que permite a los desarrolladores escribir código más conciso, legible y eficiente.
 
+["Subir"](#top)
 ---
-
+<a name="item6"></a>
 ### ¿Qué es la programación orientada a objetos?
 
 La  **programación orientada a objetos (POO)**  es un paradigma de programación que se enfoca en el uso de objetos y sus interacciones para modelar y resolver problemas de la vida real.
@@ -632,7 +645,9 @@ class Dog extends Animal {
 }
 ```
 
+["Subir"](#top)
 ---
+<a name="item7"></a>
 ### ¿Qué es una promesa en JS?
 
 Una promesa es un objeto que representa un valor que puede estar disponible ahora, en el futuro o nunca. Esta representación encapsula el resultado (éxito o error) de una operación asíncrona.
@@ -816,8 +831,11 @@ agregarUsuarios(nuevosUsuarios)
 
 Como ves, las promesas en JavaScript son una herramienta esencial para manejar operaciones asíncronas de manera más legible, estructurada y eficiente. Proporcionan una forma de lidiar con el flujo de control en código asíncrono, permitiendo  **gestionar resultados exitosos y errores de una manera más ordenada**. En resumen, han allanado el camino para un manejo más elegante y eficiente de operaciones asíncronas, lo que mejora la calidad del código y la experiencia del desarrollador en la creación de aplicaciones modernas y robustas.
 
+["Subir"](#top)
+
 ---
 
+<a name="item8"></a>
 ### Conceptos básicos de Async / Await en JavaScript
 
 Como te he adelantado en el párrafo anterior, tenemos dos partes cuando usamos  `async/await`  en nuestro código.
@@ -848,7 +866,7 @@ cargarDatos();
 }
 ```
 
-## Cómo **usar Async/Await** con manejo de errores
+#### Cómo **usar Async/Await** con manejo de errores
 
 Podemos manejar errores usando un bloque try catch como este:
 
@@ -893,7 +911,7 @@ cargarDatos();
 // 404
 ```
 
-## Cómo una función Async devuelve una promesa
+#### Cómo una función Async devuelve una promesa
 
 Este es uno de los rasgos de las funciones asíncronas — se garantiza que sus valores de retorno se convertirán en promesas. Para manejar los datos devueltos por una función  `async`  podemos usar una palabra clave  `then`  para obtener los datos.
 
@@ -912,9 +930,6 @@ const cargarDatos = async () => {
 const datos = cargarDatos().then(datos => console.log(datos));
 ```
 
-****? PRO TIP :****  
-Si quieres usar un  `async-await`  para manejar los datos devueltos puedes utilizar un IIFE, pero solo está disponible en Node 14.8 o superior.
-
 ```jsx
 // usa una IIFE asincrona 
 (async () => {
@@ -923,15 +938,15 @@ Si quieres usar un  `async-await`  para manejar los datos devueltos puedes utili
 })();
 ```
 
-`await`  solo funciona dentro de funciones asíncronas en JavaScript normal. Pero puede usarlo por sí misma con  [módulos JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Modules).
+`await`  solo funciona dentro de funciones asíncronas en JavaScript normal. Pero puede usarlo por sí misma con  módulos JavaScript.
 
-## Cómo usar Promise.all () en JavaScript
+#### Cómo usar Promise.all () en JavaScript
 
 `Promise.all()`  es muy útil cuando queremos llamar a varias APIs.
 
 Utilizando una función con  `await`  de manera tradicional, tenemos que esperar a que se complete cada solicitud antes de pasar a la siguiente. Esto puede ser un problema cuando cada solicitud tarda en completarse. Esto puede hacer que la respuesta sea muy lenta.
 
-Usando  `Promise.all()`, podemos llamar a cada una de estas API en paralelo. (Esto es una explicación muy básica – Para una explicación más detallada consulta  [este](https://anotherdev.xyz/promise-all-runs-in-parallel/#:~:text=all%20doesn't%20guarantee%20you,are%20done%20with%20their%20job.) estupendo artículo) .
+Usando  `Promise.all()`, podemos llamar a cada una de estas API en paralelo .
 
 _Ten cuidado cuando uses_ `_Promise.all()_`_, – si una de las solicitudes con await falla, todo el .all() falla._
 
@@ -977,10 +992,12 @@ const datos = cargarDatos().then(datos => console.log(datos));
 }]
 ```
 
-## Conclusión
+#### Conclusión
 
 En la mayoría de las situaciones, podemos usar  `async/await`  con un bloque  `try catch`  para manejar tanto los resultados como los errores.
 
 Por el momento,  `await`  no funcionará en el código al nivel superior. Esto quiere decir que si estamos fuera de una función asíncrona (`async`  ), no podemos usar `await`  sintácticamente. En este caso, lo habitual es agregar  `.then/catch`  para manejar el resultado final o el error.
 
 _A nivel superior en el_ código _,  `await`_ está  _disponible en Node.js  `v14.8`  o superior y solamente en módulos ES._
+
+["Subir"](#top)
