@@ -27,7 +27,7 @@ En este manual te dare a conocer herramientas y conocimientos que haran que tu t
 ---
 <a name="item1"></a>
 ### ¿Qué tipo de bucles hay en JS?
-
+---
 Una de las principales ventajas de la programación es la posibilidad de crear **bucles y repeticiones** para tareas específicas, y que no tengamos que realizar el mismo código varias veces de forma manual.
 ![enter image description here](/imagenes8/bucles-iteraciones.png)
 
@@ -167,7 +167,7 @@ for (let currentLanguage of languageArr) {
 ---
 <a name="item2"></a>
 ### ¿Cuáles son las diferencias entre const, let y var?
-
+---
 Aunque  _const_,  _let_  y  _var_  se utilizan para declarar variables en JavaScript, cada una tiene sus propias características y particularidades, que es importante entender al aprender sobre «**let en java**» y «**var javascript**«.
 
 -   **const**: se utiliza para declarar una variable cuyo valor no cambiará a lo largo del programa. Una vez que se le asigna un valor, no se puede reasignar. Las variables declaradas con const tienen un alcance de bloque.
@@ -205,6 +205,7 @@ c = 6; // Se permite la reasignación, mostrando "var y" su flexibilidad`
 
 <a name="item3"></a>
 ### ¿Qué es una función de flecha?
+---
 
 Es una forma moderna y corta de definir una función, es muy parecida a una expresión de función.
 
@@ -293,6 +294,7 @@ let sum = (a, b) => { // la llave abre una función multilínea
 ---
 <a name="item4"></a>
 ### ¿Qué es la deconstrucción de variables?
+---
 
 Los objetos y arreglos en JavaScript nos permiten **agrupar variables y valores en un solo lugar.** Aunque esto es muy útil, hay momentos en los que queremos desempacar o deconstruir esta agrupación para acceder a una sola variable o a un solo valor. Esto te sera de mucha utilidad y por ello te incluyo este apartado en el manual
 
@@ -367,6 +369,7 @@ La deconstrucción en JavaScript puede encontrarse mucho más en relación a los
 ---
 <a name="item5"></a>
 ### ¿Qué hace el operador de extensión en JS?
+---
 
 El operador spread en JavaScript es una sintaxis introducida en ECMAScript 6 (ES6) que te permite propagar los elementos de un iterable (como arrays, cadenas u objetos), en otro iterable o llamada a función.
 
@@ -498,6 +501,7 @@ Debido a su flexibilidad, el operador spread desempeña un papel importante en e
 ---
 <a name="item6"></a>
 ### ¿Qué es la programación orientada a objetos?
+---
 
 La  **programación orientada a objetos (POO)**  es un paradigma de programación que se enfoca en el uso de objetos y sus interacciones para modelar y resolver problemas de la vida real.
 
@@ -649,6 +653,7 @@ class Dog extends Animal {
 ---
 <a name="item7"></a>
 ### ¿Qué es una promesa en JS?
+---
 
 Una promesa es un objeto que representa un valor que puede estar disponible ahora, en el futuro o nunca. Esta representación encapsula el resultado (éxito o error) de una operación asíncrona.
 En otras palabras, proporcionan una forma más estructurada y legible de manejar operaciones asíncronas, permitiendo que el código sea más claro y más fácil de mantener al escribir acciones de JavaScript.
@@ -837,6 +842,7 @@ Como ves, las promesas en JavaScript son una herramienta esencial para manejar o
 
 <a name="item8"></a>
 ### Conceptos básicos de Async / Await en JavaScript
+---
 
 Como te he adelantado en el párrafo anterior, tenemos dos partes cuando usamos  `async/await`  en nuestro código.
 
